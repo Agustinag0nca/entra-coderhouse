@@ -1,0 +1,52 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color:rgb(232, 242, 219);
+    }
+
+header{
+    background-color: rgb(200, 111, 111);
+    font-size: 18px;
+    display:flex;
+}
+
+.logo{
+    background-color: rgb(232, 198, 198);
+    border-radius: 200%;
+    display: inline-flex;
+    margin: 20px;
+    width: 190px;
+}
+
+    .main-menu li{
+        text-decoration: none;
+        transition: 0.3s;
+        display:inline-flex;
+        margin-top: 50px;
+    }
+
+        .main-menu__item li{       
+            margin: 20px;
+            padding: 10px;
+            text-decoration: none;
+            width: 100%;
+            display: inline-block;
+        }
+
+    .menu__link{
+        color: rgb(0, 0, 0);
+        background-color: rgb(232, 198, 198);
+        text-decoration: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        border-radius:15px;
+    }
+
+    .menu__link:hover{
+        background-color: black;
+        color: rgb(224, 213, 213);
+        border: solid 15px rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+    }

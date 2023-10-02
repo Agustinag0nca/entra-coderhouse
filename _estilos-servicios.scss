@@ -1,0 +1,64 @@
+.h111{
+    text-decoration: overline;
+    text-align: center;
+    }
+
+    .miestilo{
+        font-size: 20px;
+        margin: 10px;
+        text-align: justify;
+    }
+
+.caja-servicios { 
+    font-size: 20px;
+    text-align: justify;
+    border:solid;
+    border: 1px;
+    font-family: 'Oswald', sans-serif;
+    }
+
+    .ofrece{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+.gallery-container{
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "foto1 foto2" "foto3 foto4";
+    gap: 30px;
+    margin-top: 90px;
+}
+
+.img {
+    color: rgb(0, 0, 0);
+    background-color: #19ad7e;
+    width: 90%;
+    text-align: center;
+    margin: 5px;
+    min-height:10px;
+    padding: 15px;
+}
+
+.gallery-item {
+    max-width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    object-fit:inherit;
+}
+
+.galleryimg{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    object-fit:scale-down;
+}

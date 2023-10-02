@@ -1,0 +1,152 @@
+h1{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;    
+    text-align: center;
+}
+.fuente-mediana{
+    margin: 20px;
+    font-size: 20px;
+}
+
+h2{ 
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 247, 242);
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.compus{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 247, 242);
+}
+
+.Ej li{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.smartp{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 247, 242);
+}
+ul{
+    list-style-type:disc;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.boton{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.notebook{
+    width: 100%;
+    height: fit-content;
+    margin-left: 20px;
+}
+
+.mobile{
+    width: 100%;
+    height: fit-content;
+}
+
+
+.rem{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    background-color: rgb(242, 247, 242);
+    border-radius: 1px rgb(196, 99, 99);    
+    padding: 20px;
+}
+
+.redes{
+    font-size: 15px;
+    text-align: center;
+    margin: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+.gracias{
+    color: rgb(3, 51, 90);
+    font-size: 15px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.arriba{
+    color: rgb(212, 66, 66);
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .notebook{
+        width: 100%;
+        margin-inline-start: auto;
+    }
+}
+.wpp{
+    width: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+}
+
+.insta{
+    width:70px;
+    display: inline;
+}
+
+.linkedin{
+    width: 70px;
+    display: inline;
+}
+.yout{
+    width: 70px;
+    display: inline;
+}
+
+.pallete{
+    text-align: center;
+    font-size: 15px;
+}
+.list{
+    position:sticky;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-item{
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, 25vh);
+        grid-template-areas: "img1" "img2" "img3" "img4";
+        margin-inline-start: auto;
+    }
+    }
