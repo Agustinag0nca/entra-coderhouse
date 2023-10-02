@@ -1,8 +1,13 @@
+$ocasion: halloween;
 
 body{
-    font-family: 'Oswald', sans-serif;
-    background-color:rgb(232, 242, 219);
+    font-family: 'Oswald', sans-serif;}
+    body{ 
+    @if $fiesta == pascuas {
+    background-color:black;
+    color: orangered;
     }
+}
 
 header{
     background-color: rgb(200, 111, 111);
