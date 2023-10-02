@@ -150,3 +150,16 @@ ul{
         margin-inline-start: auto;
     }
     }
+
+    boton {
+        width: 200px;
+        height: 50px;
+        text-align:center;
+        color: black;
+        border-radius: 20px;
+        }
+        .boton--enviar{
+        @extend boton;
+        background-color: green;
+        color: black;
+        }
