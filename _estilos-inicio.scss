@@ -159,7 +159,7 @@ ul{
         border-radius: 20px;
         }
         .boton--enviar{
-        @extend boton;
+        @extend .boton;
         background-color: green;
         color: black;
         }
