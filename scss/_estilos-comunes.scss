@@ -41,13 +41,13 @@ header{
         width: 100%;
         padding: 10px;
         margin: 10px;
-        border-radius:15px;
+        border: radius 150px;
     }
 
     .menu__link:hover{
         background-color: black;
         color: rgb(224, 213, 213);
-        border: solid 15px rgb(0, 0, 0);
+        border-radius: solid 15px rgb(0, 0, 0);
         text-align: center;
         text-decoration: none;
     }
