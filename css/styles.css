@@ -295,3 +295,9 @@ ul{
     width: 100%;
     height: 100%;
 }
+
+.enviar-consulta, .borrar{
+    border-radius: 200%;
+    width: 100%;
+    color: aliceblue;
+}
