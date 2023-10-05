@@ -11,8 +11,8 @@ header{
 
 .logo{
     background-color: rgb(232, 198, 198);
-    border-radius: 20%;
-    display:flex;
+    border-radius: 20px;
+    position: left;
     margin: 20px;
     width: 10px;
 }
@@ -20,11 +20,12 @@ header{
     .main-menu li{
         text-decoration: none;
         transition: 0.3s;
-        position:relative;
+        position:right;
         margin-top: 50px;
     }
 
-        .main-menu__item li{       
+        .main-menu__item li{  
+            position: right;
             margin: 20px;
             padding: 10px;
             text-decoration: none;
@@ -42,6 +43,7 @@ header{
     }
 
     .menu__link:hover{
+        position: right;
         background-color: black;
         color: rgb(224, 213, 213);
         border-radius: solid 15px rgb(0, 0, 0);

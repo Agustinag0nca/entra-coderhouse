@@ -20,19 +20,6 @@ h2 {
   margin-left: 20px;
 }
 
-.boton, .boton--enviar {
-  width: 100px;
-  height: 50px;
-  text-align: center;
-  color: black;
-  border-radius: 20px;
-}
-
-.boton--enviar {
-  background-color: rgba(246, 170, 142, 0.862);
-  color: black;
-}
-
 h3 {
   font-size: 30px;
   color: rgb(0, 0, 0);
@@ -70,9 +57,10 @@ ul {
   text-align: justify;
 }
 
-.boton, .boton--enviar {
+.boton {
   font-size: 20px;
-  width: 100%;
+  border-radius: 20px;
+  width: 15%;
   margin: 0px;
   color: rgb(0, 0, 0);
 }
@@ -167,19 +155,6 @@ ul {
     margin-inline-start: auto;
   }
 }
-.boton, .boton--enviar {
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  color: black;
-  border-radius: 20px;
-}
-
-.boton--enviar {
-  background-color: green;
-  color: black;
-}
-
 .h11 {
   margin: 30px 0;
   text-align: center;
