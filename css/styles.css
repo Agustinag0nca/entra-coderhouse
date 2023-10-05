@@ -11,7 +11,7 @@ header{
 
 .logo{
     background-color: rgb(232, 198, 198);
-    border-radius: 200%;
+    border-radius: 100%;
     display: inline-flex;
     margin: 20px;
     width: 190px;
