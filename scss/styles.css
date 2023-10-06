@@ -70,12 +70,14 @@ ul {
   height: -moz-fit-content;
   height: fit-content;
   margin-left: 20px;
+  align-items: center;
 }
 
 .mobile {
   width: 50%;
   height: -moz-fit-content;
   height: fit-content;
+  align-items: center;
 }
 
 .rem {
