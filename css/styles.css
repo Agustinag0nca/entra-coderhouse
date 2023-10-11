@@ -234,17 +234,10 @@ ul {
   text-align: center;
 }
 
-.caja-servicios {
-  font-size: 20px;
-  text-align: justify;
-  border: solid;
-  border: 1px;
-  font-family: "Oswald", sans-serif;
-}
-
 .ofrece {
   font-size: 20px;
   text-align: justify;
+  margin: 20px;
 }
 
 .gallery-container {
