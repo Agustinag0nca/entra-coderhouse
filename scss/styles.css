@@ -278,7 +278,7 @@ ul {
   flex-direction: column;
   justify-content: end;
   -o-object-fit: inherit;
-  object-fit: inherit;
+     object-fit: inherit;
 }
 
 .galleryimg {
@@ -287,7 +287,5 @@ ul {
   padding: 15px;
   margin: 0 auto;
   -o-object-fit: scale-down;
-  object-fit: scale-down;
-} 
-
-/*# sourceMappingURL=styles.css.map */
+     object-fit: scale-down;
+}/*# sourceMappingURL=styles.css.map */
