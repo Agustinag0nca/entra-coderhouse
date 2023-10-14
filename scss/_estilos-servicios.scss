@@ -8,7 +8,7 @@
     text-align: justify;
     border:solid;
     border: 1px;
-    font-family: 'Oswald', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     }
 
     .ofrece{
@@ -56,4 +56,25 @@
     padding: 15px;
     margin: 0 auto;
     object-fit:scale-down;
+}
+
+.arriba{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(176, 236, 216);
+    color: black;
+    border-radius:10px;
+}
+
+.pallete{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(176, 236, 216);
+    color: black;
+    border-radius:10px;
 }

@@ -55,25 +55,32 @@ ul{
     text-align: justify;
 }
 
-.boton{
+.boton--enviar{
     width: 15%;
     font-size: 20px;
     border-radius: 50px;
     margin: 0 auto;
     color: rgb(0, 0, 0);
-    background-color: rgb(196, 255, 230);
+    background-color: rgba(196, 255, 230, 0.437);
+
+    transition: all 3s;
+
+    &:hover{
+        background-color: rgb(216, 119, 119);
+        color: black;
+    }
 }
 
 .notebook{
-    margin: 20px;
+    margin-left: 30px;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 
 .mobile{
-    margin: 20px;
+    margin-left: 30px;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -94,16 +101,13 @@ ul{
 
 
 .gracias{
+    margin-top: 50px;
     color: rgb(3, 51, 90);
     font-size: 15px;
     text-align: center;
     text-decoration: overline;
 }
 
-.arriba{
-    color: rgb(212, 66, 66);
-    text-align: center;
-}
 
 @media screen and (max-width: 768px){
     .notebook, .mobile{
@@ -131,11 +135,6 @@ ul{
     width: 70px;
     display: inline;
 }
-
-.pallete{
-    text-align: center;
-    font-size: 15px;
-}
 .list{
     position:sticky;
     width: 100%;
@@ -151,4 +150,25 @@ ul{
         grid-template-areas: "img1" "img2" "img3" "img4";
         margin: 20px;
     }
+    }
+
+    .arriba{
+        padding-top: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(176, 236, 216);
+        color: black;
+        border-radius:10px;
+    }
+
+    .pallete{
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(176, 236, 216);
+        color: black;
+        border-radius:10px;
     }

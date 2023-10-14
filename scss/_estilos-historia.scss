@@ -5,6 +5,39 @@
 }
 
 .h22{
-text-align:start;
-padding: 20px;
+    transition: all 3s; 
+
+&:hover {
+    color: black;
+    background-color:rgb(225, 146, 143)
+}
+}
+
+.h22{
+    margin: 20px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    text-align: justify;
+}
+
+.arriba{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:10px;
+    background-color: rgb(176, 236, 216);
+    color: black;
+}
+
+.pallete{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(176, 236, 216);
+    color: black;
+    border-radius:10px;
 }

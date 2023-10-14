@@ -57,25 +57,30 @@ ul {
   text-align: justify;
 }
 
-.boton {
+.boton--enviar {
   width: 15%;
   font-size: 20px;
   border-radius: 50px;
   margin: 0 auto;
   color: rgb(0, 0, 0);
-  background-color: rgb(196, 255, 230);
+  background-color: rgba(196, 255, 230, 0.437);
+  transition: all 3s;
+}
+.boton--enviar:hover {
+  background-color: rgb(216, 119, 119);
+  color: black;
 }
 
 .notebook {
-  margin: 20px;
+  margin-left: 30px;
   align-items: center;
-  width: 100%;
+  width: 50%;
 }
 
 .mobile {
-  margin: 20px;
+  margin-left: 30px;
   align-items: center;
-  width: 100%;
+  width: 50%;
 }
 
 .rem {
@@ -94,15 +99,11 @@ ul {
 }
 
 .gracias {
+  margin-top: 50px;
   color: rgb(3, 51, 90);
   font-size: 15px;
   text-align: center;
   text-decoration: overline;
-}
-
-.arriba {
-  color: rgb(212, 66, 66);
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -133,11 +134,6 @@ ul {
   display: inline;
 }
 
-.pallete {
-  text-align: center;
-  font-size: 15px;
-}
-
 .list {
   position: sticky;
   width: 100%;
@@ -154,6 +150,27 @@ ul {
     margin: 20px;
   }
 }
+.arriba {
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
+}
+
+.pallete {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
+}
+
 .h11 {
   margin: 30px 0;
   text-align: center;
@@ -161,8 +178,40 @@ ul {
 }
 
 .h22 {
-  text-align: start;
+  transition: all 3s;
+}
+.h22:hover {
+  color: black;
+  background-color: rgb(225, 146, 143);
+}
+
+.h22 {
+  margin: 20px;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.arriba {
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+}
+
+.pallete {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
 }
 
 .contact {
@@ -210,8 +259,17 @@ ul {
   background-color: rgba(200, 234, 216, 0.828);
 }
 
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .maps {
-  margin: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -224,6 +282,27 @@ ul {
   width: 20%;
 }
 
+.arriba {
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
+}
+
+.pallete {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
+}
+
 .h111 {
   text-decoration: overline;
   text-align: center;
@@ -234,7 +313,7 @@ ul {
   text-align: justify;
   border: solid;
   border: 1px;
-  font-family: "Oswald", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .ofrece {
@@ -284,4 +363,25 @@ ul {
   margin: 0 auto;
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+.arriba {
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
+}
+
+.pallete {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(176, 236, 216);
+  color: black;
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
