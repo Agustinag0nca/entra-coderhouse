@@ -1,0 +1,1 @@
+En este proyecto de coderhouse estuve utilizando html y css junto con otras herramientas como scss, aprendi a usar git y github. Entre los temas del curso y los que se encuentran em mi repositorio estan box modeling, flexbos, gridsbootstrap, sass y animaciones # entra-coderhouse
