@@ -64,7 +64,7 @@ ul {
   margin: 0 auto;
   color: rgb(0, 0, 0);
   background-color: rgba(196, 255, 230, 0.437);
-  transition: all 3s;
+  transition: all 0.3s;
 }
 
 .boton--enviar:hover {
@@ -253,12 +253,24 @@ ul {
   margin: 20px;
   border-radius: 20px;
   background-color: rgba(206, 243, 224, 0.794);
+  transition: all 0.3s;
+}
+
+.Enviar:hover {
+  background-color: rgb(216, 119, 119);
+  color: black;
 }
 
 .borrar {
   margin: 20px;
   border-radius: 20px;
   background-color: rgba(200, 234, 216, 0.828);
+  transition: all 0.3s;
+}
+
+.borrar:hover {
+  background-color: rgb(216, 119, 119);
+  color: black;
 }
 
 .contacto {
